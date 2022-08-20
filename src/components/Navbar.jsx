@@ -25,6 +25,20 @@ export default function Navbar() {
 					</a>
 				</nav>
 				<a
+					href='https://www.linkedin.com/in/marcos-abner-leite'
+					className='inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0'
+					target={'_blank'}
+				>
+					<iconify-icon icon='akar-icons:linkedin-box-fill'></iconify-icon>
+				</a>
+				<a
+					href='https://github.com/mabner'
+					className='inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0'
+					target={'_blank'}
+				>
+					<iconify-icon icon='akar-icons:github-fill'></iconify-icon>
+				</a>
+				<a
 					href='#contact'
 					className='inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0'
 				>
