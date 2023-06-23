@@ -27,10 +27,13 @@ export default function Contact() {
 	return (
 		<section id='contact' className='relative'>
 			<div className='container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap'>
-				<form netlify name='contact' onSubmit={handleSubmit}>
+				<form name='contact' netlify-honeypot='bot-field' data-netlify='true' onSubmit={handleSubmit}>
 					<h2 className='text-white sm:text-4xl text-3xl mb-1 font-medium title-font'>
 						Contato
 					</h2>
+					<p className='hidden'>
+    						<label>Don’t fill this out if you’re human: <input name='bot-field' /></label>
+ 					</p>
 					<p className='leading-relaxed mb-5'>
 						Caso deseje entrar em contato basta preencher o formulário abaixo.
 					</p>
