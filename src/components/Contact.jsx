@@ -30,7 +30,7 @@ export default function Contact() {
 				<form
 					name='contact'
 					netlify-honeypot='bot-field'
-					data-netlify-recaptcha="true"
+					data-netlify-recaptcha='true'
 					data-netlify='true'
 					onSubmit={handleSubmit}
 				>
@@ -43,9 +43,9 @@ export default function Contact() {
 						</label>
 					</p>
 					<div
-						class="g-recaptcha"
-						data-sitekey="6Ldbse4nAAAAAO-Ij6R5KKxz0KTVnsHOzUO8TGvk"
-						data-theme="dark"
+						class='g-recaptcha'
+						data-sitekey='6Ldbse4nAAAAAO-Ij6R5KKxz0KTVnsHOzUO8TGvk'
+						data-theme='dark'
 					></div>
 					<p className='leading-relaxed mb-5'>
 						Caso deseje entrar em contato basta preencher o formulário abaixo.
