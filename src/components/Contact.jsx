@@ -30,7 +30,6 @@ export default function Contact() {
 				<form
 					name='contact'
 					netlify-honeypot='bot-field'
-					data-netlify-recaptcha='true'
 					data-netlify='true'
 					onSubmit={handleSubmit}
 				>
@@ -83,7 +82,6 @@ export default function Contact() {
 							onChange={(e) => setMessage(e.target.value)}
 						/>
 					</div>
-					<div data-netlify-recaptcha='true'></div>
 					<button
 						type='submit'
 						className='text-white bg-indigo-500 border-0 py-2 px-10 focus:outline-none hover:bg-indigo-600 rounded text-lg'
